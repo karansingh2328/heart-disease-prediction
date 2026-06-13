@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-📊 Exploratory Data Analysis
+###📊 Exploratory Data Analysis
 
 Correlation Heatmap
 
