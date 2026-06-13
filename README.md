@@ -1,94 +1,177 @@
 # 🫀 Heart Disease Prediction System
 
-A Machine Learning-based web application that predicts the risk of heart disease using patient health parameters.
+## 📌 Project Overview
 
-# 🚀 Live Demo
+The Heart Disease Prediction System is a Machine Learning project that predicts whether a patient is at risk of heart disease based on clinical and health-related attributes. The project combines data analysis, machine learning, and an interactive web application to provide quick and reliable predictions.
+
+The application is built using Python and Streamlit and is deployed online for easy access.
+
+---
+
+## 🎯 Problem Statement
+
+Heart disease remains one of the leading causes of death worldwide. Early identification of high-risk patients can help healthcare professionals make informed decisions and improve patient outcomes.
+
+The goal of this project is to develop a machine learning model capable of predicting the likelihood of heart disease using patient medical data.
+
+---
+
+## 🚀 Live Demo
+
+**Try the application here:**
+
 https://heart-disease-prediction-wg2zfecvfhs5knayj6fuky.streamlit.app/
 
-# 📸 Project Screenshots
+---
 
-## 🏠 Home Page
-[Home Page](app.png)
+## ✨ Key Features
 
-## 📊 Prediction Result
-[Result Page](app-result.png)
+* Predicts the likelihood of heart disease using Machine Learning
+* Interactive Streamlit web application
+* User-friendly interface for entering patient information
+* Real-time prediction results
+* Exploratory Data Analysis (EDA)
+* Data visualization using charts and graphs
+* Online deployment for easy access
 
-# ⚙️ Features
+---
 
-- Predict heart disease risk using Machine Learning
-- User-friendly Streamlit interface
-- Real-time prediction
-- Fast and simple UI
-- Based on trained classification model
+## 📊 Exploratory Data Analysis
 
-# 🧠 Tech Stack
-
-- Python
-- Pandas
-- Scikit-learn
-- Streamlit
-- Machine Learning
-
-# 📊 Model Information
-
-- Algorithm: Logistic Regression / Random Forest (your actual model)
-- Problem Type: Classification
-- Output: Heart Disease Risk (Yes / No)
-
-# 📁 Project Structure
-- app.py
-- model.pkl
-- heart.csv
--app.png
--app-result.png
--README.md
-
-# 🚀 How to Run This Project
-
-1. Clone the repository
-   
-      git clone https://github.com/karansingh2328/heart-disease-prediction.git
-
-2. Move into the project directory
-
-      cd heart-disease-prediction
-
-3. Install dependencies
-
-      pip install -r requirements.txt
-
-4. Run the Streamlit app
-
-      streamlit run app.py
-
-# 📊 Exploratory Data Analysis
-
-## Correlation Heatmap
+### Correlation Heatmap
 
 ![Correlation Heatmap](notebooks/graphs/correlation_heatmap.png)
 
-## Heart Disease Distribution
+### Heart Disease Distribution
 
 ![Heart Disease Distribution](notebooks/graphs/heart_disease_distribution.png)
 
-## Age Distribution
+### Age Distribution
 
 ![Age Distribution](notebooks/graphs/age_distribution.png)
 
-## Chest Pain Type Distribution
+### Chest Pain Type Distribution
 
 ![Chest Pain Type Distribution](notebooks/graphs/chest_pain_distribution.png)
 
+---
 
+## 🧠 Machine Learning Model
 
+### Model Information
 
+* Problem Type: Binary Classification
+* Target Variable: HeartDisease
+* Features Used:
 
-# 👨‍💻 Author
+  * Age
+  * Sex
+  * ChestPainType
+  * RestingBP
+  * Cholesterol
+  * FastingBS
+  * RestingECG
+  * MaxHR
+  * ExerciseAngina
+  * Oldpeak
+  * ST_Slope
 
-**Karan Singh**  
-📧 Email: karansingh.contact28@gmail.com  
-🔗 GitHub: https://github.com/karansingh2328
+The machine learning model analyzes patient health indicators and predicts whether a patient is likely to have heart disease.
 
+---
 
-### ⭐ Note
-If you like this project, please give it a ⭐ on GitHub.
+## 📸 Application Screenshots
+
+### Home Page
+
+![Application UI](images/app.png)
+
+### Prediction Result
+
+![Prediction Result](images/app-result.png)
+
+---
+
+## 🧰 Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* Seaborn
+* Streamlit
+* Git
+* GitHub
+
+---
+
+## 📁 Project Structure
+
+```text
+heart-disease-prediction/
+│
+├── app.py
+├── model/
+│   ├── model.pkl
+│   └── columns.pkl
+│
+├── notebooks/
+│   ├── heart_disease_analysis.ipynb
+│   └── graphs/
+│       ├── age_distribution.png
+│       ├── chest_pain_distribution.png
+│       ├── cholesterol_distribution.png
+│       ├── correlation_heatmap.png
+│       ├── heart_disease_distribution.png
+│       └── restingbp_distribution.png
+│
+├── images/
+│   ├── app.png
+│   └── app-result.png
+│
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/karansingh2328/heart-disease-prediction.git
+```
+
+Move into the project directory:
+
+```bash
+cd heart-disease-prediction
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 👨‍💻 Author
+
+**Karan Singh**
+
+Aspiring Data Analyst | Data Scientist | Business Analyst
+
+GitHub: https://github.com/karansingh2328
+
+---
+
+⭐ If you found this project useful, consider giving it a star.
