@@ -7,3 +7,8 @@ The model is trained on a heart disease dataset and uses machine learning algori
 Users can enter values such as age, blood pressure, cholesterol, and heart rate to get an instant prediction of heart disease risk.
 
 The goal of this project is to demonstrate how machine learning can be applied in healthcare to assist early detection and decision-making.
+
+🚀 Live Demo
+
+👉 Try the app here:  
+https://heart-disease-prediction-wg2zfecvfhs5knayj6fuky.streamlit.app/
