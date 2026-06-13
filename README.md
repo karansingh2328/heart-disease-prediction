@@ -166,8 +166,6 @@ streamlit run app.py
 
 **Karan Singh**
 
-Aspiring Data Analyst | Data Scientist | Business Analyst
-
 GitHub: https://github.com/karansingh2328
 
 ---
