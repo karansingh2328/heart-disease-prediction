@@ -61,7 +61,29 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-## 👨‍💻 Author
+📊 Exploratory Data Analysis
+
+Correlation Heatmap
+
+![Correlation Heatmap](notebooks/graphs/correlation_heatmap.png)
+
+Heart Disease Distribution
+
+![Heart Disease Distribution](notebooks/graphs/heart_disease_distribution.png)
+
+Age Distribution
+
+![Age Distribution](notebooks/graphs/age_distribution.png)
+
+Chest Pain Type Distribution
+
+![Chest Pain Type Distribution](notebooks/graphs/chest_pain_distribution.png)
+
+
+
+
+
+👨‍💻 Author
 
 **Karan Singh**  
 📧 Email: karansingh.contact28@gmail.com  
