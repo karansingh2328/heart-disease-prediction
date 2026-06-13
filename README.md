@@ -80,15 +80,13 @@ The machine learning model analyzes patient health indicators and predicts wheth
 
 ---
 
-## 📸 Application Screenshots
-
 ### Home Page
 
-![Application UI](images/app.png)
+![Application UI](app.png)
 
 ### Prediction Result
 
-![Prediction Result](images/app-result.png)
+![Prediction Result](app-result.png)
 
 ---
 
