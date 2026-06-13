@@ -1,14 +1,72 @@
-🫀 About This Project
+🫀 Heart Disease Prediction System
 
-This project is a Machine Learning-based web application that predicts the likelihood of heart disease based on user medical inputs.
-
-The model is trained on a heart disease dataset and uses machine learning algorithms to analyze patterns in patient health data.
-
-Users can enter values such as age, blood pressure, cholesterol, and heart rate to get an instant prediction of heart disease risk.
-
-The goal of this project is to demonstrate how machine learning can be applied in healthcare to assist early detection and decision-making.
+A Machine Learning-based web application that predicts the risk of heart disease using patient health parameters.
 
 🚀 Live Demo
-
-👉 Try the app here:  
 https://heart-disease-prediction-wg2zfecvfhs5knayj6fuky.streamlit.app/
+
+📸 Project Screenshots
+
+🏠 Home Page
+[Home Page](app.png)
+
+📊 Prediction Result
+[Result Page](app-result.png)
+
+⚙️ Features
+
+- Predict heart disease risk using Machine Learning
+- User-friendly Streamlit interface
+- Real-time prediction
+- Fast and simple UI
+- Based on trained classification model
+
+🧠 Tech Stack
+
+- Python
+- Pandas
+- Scikit-learn
+- Streamlit
+- Machine Learning
+
+📊 Model Information
+
+- Algorithm: Logistic Regression / Random Forest (your actual model)
+- Problem Type: Classification
+- Output: Heart Disease Risk (Yes / No)
+
+📁 Project Structure
+- app.py
+- model.pkl
+- heart.csv
+-app.png
+-app-result.png
+-README.md
+
+🚀 How to Run This Project
+
+1. Clone the repository
+   
+git clone https://github.com/karansingh2328/heart-disease-prediction.git
+
+2. Move into the project directory
+
+cd heart-disease-prediction
+
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Run the Streamlit app
+
+streamlit run app.py
+
+## 👨‍💻 Author
+
+**Karan Singh**  
+📧 Email: karansingh.contact28@gmail.com  
+🔗 GitHub: https://github.com/karansingh2328
+
+
+⭐ Note
+If you like this project, please give it a ⭐ on GitHub.
